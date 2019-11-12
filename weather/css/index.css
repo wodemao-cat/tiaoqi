@@ -1,0 +1,231 @@
+html,
+body,
+.weather {
+    height: 100%;
+}
+
+body {
+    background: url('../images/timg\ \(2\).jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.weather {
+    overflow-y: auto;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.Stick-nav {
+    height: 24px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.weather-nav {
+    height: .44rem;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 0 .1rem;
+}
+
+.weather-box {
+    position: relative;
+    z-index: 1;
+    /* height: calc(100%-.44rem -24px); */
+    overflow-y: auto;
+    height: 6rem;
+}
+
+.location-icon {
+    width: .2rem;
+    height: .2rem;
+    background: url('../images/location.png') no-repeat center center;
+    background-size: .2rem .2rem;
+    margin-top: .12rem;
+}
+
+.location-city {
+    width: .8rem;
+    font-size: .16rem;
+    line-height: .44rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+    margin-left: .1rem;
+}
+
+.search-box {
+    width: calc(100%-1.58rem);
+    height: .28rem;
+    margin-top: .08rem;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .3) 0%, rgba(255, 255, 255, .8) 100%);
+    margin-left: .2rem;
+    border-radius: .1rem;
+    padding-left: .14rem;
+    padding-right: .14rem;
+}
+
+.search-ipt {
+    display: block;
+    width: calc(100%-.2rem);
+    height: .28rem;
+    color: #fff;
+}
+
+.search-icon {
+    background: url('../images/search.png') no-repeat center center;
+    width: .2rem;
+    height: .2rem;
+    background-size: .2rem .2rem;
+    margin-top: .04rem;
+}
+
+.current-weather {
+    color: #fff;
+    margin: .3rem;
+    background-color: rgba(255, 255, 255, .1);
+    padding: .3rem;
+    border-radius: .25rem;
+    box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, .55) inset;
+    z-index: 1;
+}
+
+.date {
+    margin-right: .2rem;
+}
+
+.tem-box {
+    margin: .2rem 0;
+}
+
+.tem {
+    width: 1.32rem;
+    font-size: .6rem;
+    height: .79rem;
+}
+
+.weather-status {
+    height: .8rem;
+    position: relative;
+    width: calc(100% - 1.52rem);
+    margin-left: .2rem;
+}
+
+.wea {
+    margin-left: .2rem;
+    margin-top: .1rem;
+}
+
+.weather-status-text {
+    position: absolute;
+    bottom: .1rem;
+    left: 0;
+}
+
+.qing {
+    margin-left: .15rem;
+    width: .5rem;
+    height: .5rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: .5rem .5rem;
+}
+
+.wind {
+    margin-right: .36rem;
+}
+
+.time-box {
+    color: white;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.time-box-title {
+    height: .36rem;
+    font-size: .18rem;
+    line-height: .36rem;
+    padding: 0 .24rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.time-weather {
+    overflow-x: auto;
+    padding: .1rem;
+    text-align: center;
+}
+
+.time-weather>ul {
+    width: 28.8rem;
+}
+
+.time-weather>ul>li {
+    float: left;
+    width: 1.2rem;
+}
+
+.time-weather>ul>li>div {
+    margin-bottom: .1rem;
+}
+
+time-weather>ul>li>div:last-child {
+    margin-bottom: .0;
+}
+
+.tomorrow-weather {
+    color: white;
+    margin-top: .25rem;
+    background: rgba(255, 255, 255, .2);
+}
+
+.tomorrow-weather-title {
+    height: .36rem;
+    font-size: .18rem;
+    line-height: .36rem;
+    padding: 0 .24rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.tomorrow-weather-box {
+    padding: .12rem;
+}
+
+.tomorrow-weather-box>ul>li {
+    padding: .2rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2)
+}
+
+.tomorrow-weather-box>ul>li>span {
+    float: left;
+}
+
+.tomorrow-weather-box>ul>li>span:nth-child(1) {
+    width: 20%;
+}
+
+.tomorrow-weather-box>ul>li>span:nth-child(2) {
+    width: 20%;
+}
+
+.tomorrow-weather-box>ul>li>span:nth-child(3) {
+    width: 30%;
+}
+
+.tomorrow-weather-box>ul>li>span:nth-child(4) {
+    width: 30%;
+}
+
+.future-weather-icon {
+    display: block;
+    width: .2rem;
+    height: .2rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: .2rem .2rem;
+}
+
+.w-dir {
+    text-align: center;
+}
